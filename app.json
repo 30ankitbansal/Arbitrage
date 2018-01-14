@@ -1,0 +1,7 @@
+{
+  "name": "Start on Heroku: Python",
+  "description": "simple ask bid price for exchanges",
+  "image": "heroku/python",
+  "repository": "https://github.com/30ankitbansal/Arbitrage",
+  "keywords": ["python" , "django"]
+}

@@ -28,7 +28,7 @@ class Livecoin(object):
     DASH_BALANCE = 0
 
     def __init__(self, key=None, secret=None):
-        self.logger = logging.getLogger("Bittrex")
+        self.logger = logging.getLogger("Livecoin")
         self.BASE_URL = "https://livecoin.com/api/"
         self.handler = logging.FileHandler(dir + 'logs/livecoin.log')
         self.is_continuous = False
